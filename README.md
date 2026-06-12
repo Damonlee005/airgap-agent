@@ -34,5 +34,4 @@ Still in progress. Pushing updates as I progress.
 - [ ] Demo and writeup
 
 ## Author
-Cybersecurity student at the University of Tennessee. Based in Oak Ridge. 
-Focused on AI infrastructure and national security. Building in public.
+Student at the University of Tennessee.  
