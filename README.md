@@ -7,8 +7,7 @@ access. The model runs on my machine (MacBook Pro M2, Apple Silicon),
 the agent runs in the container.
 
 ## Why I'm building it
-I'm a student at UT. Going through internship postings 
-in the Knoxville area I kept running into the same requirement across 
+Going through internship postings in the Knoxville area I kept running into the same skills set across 
 multiple aerospace and defense contractors, the ability to build and 
 work with secure AI infrastructure that operates completely offline. 
 Containerized AI agents, locally hosted LLMs, air gapped environments.
@@ -16,6 +15,8 @@ The demand for this kind of setup is growing fast
 because organizations handling sensitive data can not just plug into 
 cloud AI tools the way everyone else does. They need the capability 
 but they need it contained. 
+
+This is a collision of both worlds, it includes secuirty prionbciples releavant to cybersecuty andf it is a way for practice within AI tooling and buidkling soemthing that combiens them both.
 
 ## What I'm working toward
 - Get Docker and Ollama working together in an isolated environment
