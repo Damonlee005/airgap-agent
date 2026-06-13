@@ -32,6 +32,13 @@ Still in progress. Pushing updates as I progress.
 - [ ] Python agent
 - [ ] Network isolation testing
 - [ ] Demo and writeup
+## Where I want to take this
+Right now this is running on test prompts and basic inputs. Eventually 
+I want to feed it real engineering data, simulation files, and technical 
+documentation and see if it can actually do something useful inside a 
+real workflow. The whole point of building it this way is that it could 
+realistically be dropped into a sensitive environment where cloud AI 
+just isn't an option. That's what I'm building toward.
 
 ## Author
 Student at the University of Tennessee.  
