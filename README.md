@@ -38,7 +38,4 @@ I want to feed it real engineering data, simulation files, and technical
 documentation and see if it can actually do something useful inside a 
 real workflow. The whole point of building it this way is that it could 
 realistically be dropped into a sensitive environment where cloud AI 
-just isn't an option. That's what I'm building toward.
-
-## Author
-Student at the University of Tennessee.  
+just isn't an option. That's what I'm building toward.  
