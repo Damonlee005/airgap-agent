@@ -4,7 +4,7 @@
 ## What this is
 A local AI agent that runs inside a Docker container with no internet 
 access. The model runs on my machine (MacBook Pro M2, Apple Silicon), 
-the agent runs in the container, nothing leaves.
+the agent runs in the container.
 
 ## Why I'm building it
 I'm a student at UT. Going through internship postings 
