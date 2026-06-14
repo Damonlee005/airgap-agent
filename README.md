@@ -6,6 +6,8 @@ A local AI agent that runs inside a Docker container with no internet
 access. The model runs on my machine (MacBook Pro M2, Apple Silicon), 
 the agent runs in the container.
 
+<img width="742" height="62" alt="Screenshot 2026-06-14 at 3 03 13 PM" src="https://github.com/user-attachments/assets/11034c27-2dcb-4968-866d-04193e2a7fc7" />
+
 ## Why I'm building it
 Going through internship postings in the Knoxville area I kept running into the same skills set across 
 multiple aerospace and defense contractors, the ability to build and 
