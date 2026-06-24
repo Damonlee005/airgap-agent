@@ -22,7 +22,7 @@ This is a collision of both worlds, it includes secuirty prionbciples releavant 
 
 ## What I'm working toward
 - Get Docker and Ollama working together in an isolated environment
-- Build a Python agent that can handle basic engineering workflow tasks
+- Build a Python agent that can handle basic workflow tasks
 - Actually verify the network isolation works
 - Understand this architecture from the ground up
 
