@@ -29,7 +29,7 @@ This is a collision of both worlds, it includes secuirty prionbciples releavant 
 ## Status
 Still in progress. Pushing updates as I progress.
 
-## Roadmap
+## Roadma0
 - [ ] Docker setup
 - [ ] Ollama and local LLM
 - [ ] Python agent
