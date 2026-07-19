@@ -27,7 +27,7 @@ This is a collision of both worlds, it includes secuirty prionbciples releavant 
 - Understand this architecture from the ground up
 
 ## Status
-Still in progress. Pushing updates as I progress.
+July 19th, 2026 pushing docker contanorized files for completed project. estimated completion by end of july doing poart time work on project.
 
 ## Roadma0
 - [ ] Docker setup
