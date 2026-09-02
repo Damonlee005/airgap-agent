@@ -1,0 +1,19 @@
+services:
+  agent:
+    build: .
+    container_name: airgap-agent
+    networks:
+      - isolated
+    env_file:
+      - .env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    stdin_open: true
+    tty: true
+
+networks:
+  isolated:
+    driver: bridge
+    internal: true
+    # no route out to the internet, container can only reach itself
+    # and, through extra_hosts above, the host machine
