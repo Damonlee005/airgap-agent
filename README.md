@@ -18,7 +18,7 @@ because organizations handling sensitive data can not just plug into
 cloud AI tools the way everyone else does. They need the capability 
 but they need it contained. 
 
-This is a collision of both worlds, it includes secuirty prionbciples releavant to cybersecuty and it is a way for practice within AI tooling and buidkling something that combiens them both.
+This is a collision of both worlds, it includes secuirty principles releavant to cybersecuty and it is a way for practice within AI tooling and buidling something that combines them both.
 
 ## What I'm working toward
 - Get Docker and Ollama working together in an isolated environment
@@ -27,7 +27,7 @@ This is a collision of both worlds, it includes secuirty prionbciples releavant 
 - Understand this architecture from the ground up
 
 ## Status
-July 19th, 2026 pushing docker contanorized files for completed project. estimated completion by end of july doing poart time work on project.
+July 19th, 2026 pushing docker contanorized files for completed project. estimated completion by end of july doing part time work on project.
 
 ## Roadma0
 - [ ] Docker setup
