@@ -33,6 +33,12 @@ def parse_args():
     return parser.parse_args()
 
 
+def _base_name(model_name):
+    # ollama returns tagged names like "llama3:latest", strip the tag
+    # so a plain "llama3" request still matches it
+    return model_name.split(":")[0]
+
+
 def resolve_model(client, requested_model):
     # check the model is actually pulled before using it, otherwise
     # ollama just throws a confusing error mid-request
@@ -43,6 +49,11 @@ def resolve_model(client, requested_model):
 
     if requested_model in available:
         return requested_model
+
+    by_base_name = {_base_name(m): m for m in available}
+    base = _base_name(requested_model)
+    if base in by_base_name:
+        return by_base_name[base]
 
     if available:
         logger.warning(
@@ -59,7 +70,7 @@ def print_banner(model):
     print("=" * 50)
     print("airgap-agent")
     print(f"model: {model}")
-    print("network: isolated container, host-only model access")
+    print("network: isolated container, model runs in a separate container")
     print("=" * 50)
 
 

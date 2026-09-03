@@ -1,4 +1,17 @@
 services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: airgap-ollama
+    networks:
+      - isolated
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
   agent:
     build: .
     container_name: airgap-agent
@@ -6,8 +19,9 @@ services:
       - isolated
     env_file:
       - .env
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+    depends_on:
+      ollama:
+        condition: service_healthy
     stdin_open: true
     tty: true
 
@@ -15,5 +29,6 @@ networks:
   isolated:
     driver: bridge
     internal: true
-    # no route out to the internet, container can only reach itself
-    # and, through extra_hosts above, the host machine
+
+volumes:
+  ollama_data:
