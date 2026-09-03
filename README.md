@@ -54,5 +54,3 @@ You should see it fail to reach the public internet and succeed in reaching Olla
 
 ## Where I want to take this
 Right now it is running on test prompts and basic inputs. Next I want to feed it real engineering data, simulation files, and technical documentation, and see if it can actually do something useful inside a real workflow instead of just responding to simple test cases. The whole point of building it this way is that it could realistically get dropped into a sensitive environment where cloud AI is not an option. That is what I am building toward.
-
-## Project layout
