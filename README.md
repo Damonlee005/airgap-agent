@@ -8,11 +8,6 @@ A local AI agent that runs inside a Docker container with zero internet access. 
 
 <img width="742" height="62" alt="Screenshot 2026-06-14 at 3 03 13 PM" src="https://github.com/user-attachments/assets/11034c27-2dcb-4968-866d-04193e2a7fc7" />
 
-# airgap-agent
-
-![tests](https://github.com/Damonlee005/airgap-agent/actions/workflows/tests.yml/badge.svg)
-![license](https://img.shields.io/github/license/Damonlee005/airgap-agent)
-
 ## Why I built it
 I built this on my own time because I kept seeing the same requirement in cybersecurity roles at aerospace and defense contractors: secure AI that runs completely offline.
 
